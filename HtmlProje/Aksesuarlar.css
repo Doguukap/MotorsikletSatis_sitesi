@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+/* base css Start */
+
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar start */
+.navbar{
+    
+    background-color: #d71d1d;
+    height: 100px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.navbar-wrapper{
+    border-bottom:2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.logo{
+    width: 100px;
+    height: fit-content;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    }
+
+
+.menu-item{
+
+    cursor: pointer;
+}
+
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+color: white;
+font-weight: bold; 
+transition: ease 0,5s;   
+}
+
+.profil-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.profil-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.profil-icon{
+   
+    color: white;
+    font-weight: bold;
+    padding-top: 0,5px;
+}
+.profil-icon:hover{
+    color: white;
+    font-weight: bold; 
+transition: ease 0,5s; 
+}
+
+
+.profile-pic{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* kişisel aksesuarlar */
+
+
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.kisiselaksesuar-cont{
+    height: fit-content;
+}
+
+.kisisel-baslık{
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+.K-aksesuar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+
+}
+
+.aksesuar-item{
+   width: 20%;
+   height: 250px;
+   background-color: white;
+    margin-top: 200px;
+    border: black 4px solid;
+    
+
+}
+.aksesuar-item:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    border: white ;
+}
+
+.k-img{
+    width: 100%;
+    height: 100%;
+}
+
+.aksesuar-item p{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: white 4px solid;
+
+}
+/* motor aksesuarları */
+
+
+.motoraksesuar-cont{
+    margin-top: 200px;
+    height: fit-content;
+}
+
+
+.motor-baslık{
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+}
+.M-aksesuar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+
+}
+
+.aksesuar-item{
+   width: 20%;
+   height: 250px;
+   background-color: white;
+    margin-top: 250px;
+    border: black 4px solid;
+    
+
+}
+.aksesuar-item:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    border: white ;
+}
+
+.m-img{
+    width: 100%;
+    height: 100%;
+}
+
+.aksesuar-item p{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: white 4px solid;
+
+}
+
+
+/* footer start */
+
+.footer-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    
+} 
+.footerlogo-cont{
+    width: 100%;
+    height: fit-content;
+}
+.footer-logo{
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.iletisim-icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+ 
+}
+.foot-icon{
+    color: white;
+    align-items: center;
+    padding-left: 60px;
+    height: fit-content;
+    font-size: 30px;
+}
+.footer-p{
+    padding-top: 200px;
+    padding-left: 70px;
+    color: white;
+
+}

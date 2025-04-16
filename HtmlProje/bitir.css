@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+/* base css Start */
+
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar start */
+.navbar{
+    
+    background-color: #d71d1d;
+    height: 100px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.navbar-wrapper{
+    border-bottom:2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.logo{
+    width: 100px;
+    height: fit-content;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    }
+
+
+.menu-item{
+
+    cursor: pointer;
+}
+
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+color: white;
+font-weight: bold; 
+transition: ease 0,5s;   
+}
+
+.profil-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.profil-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.profil-icon{
+   
+    color: white;
+    font-weight: bold;
+    padding-top: 0,5px;
+}
+.profil-icon:hover{
+    color: white;
+    font-weight: bold; 
+transition: ease 0,5s; 
+}
+
+
+.profile-pic{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bitirmeyazısı{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.bitirmeyazısı h1{
+    font-size: 40px;
+}
+.bitirmeyazısı p{
+    padding-top: 20px;
+    font-size: 20px;
+}

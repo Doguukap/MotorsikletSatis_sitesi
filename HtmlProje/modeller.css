@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+/* base css Start */
+
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar start */
+.navbar{
+    
+    background-color: #d71d1d;
+    height: 100px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.navbar-wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+    border-bottom:2px solid black;
+}
+
+.logo{
+    width: 100px;
+    height: fit-content;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    }
+
+
+.menu-item{
+
+    cursor: pointer;
+}
+
+
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+color: white;
+font-weight: bold; 
+transition: ease 0,5s;   
+}
+
+.profil-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.profil-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.profil-icon{
+   
+    color: white;
+    font-weight: bold;
+}
+.profil-icon:hover{
+    color: white;
+    font-weight: bold; 
+transition: ease 0,5s; 
+}
+
+
+.profile-pic{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* modeller start */
+/* --------scooter------- */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.modeller-scooter{
+    display: flex;
+    
+}
+
+.title-scooter{
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 300px;
+    text-align: center;
+    
+}
+.title-scooter h1{
+    padding: 50%;
+    transform: rotate(270deg);
+}
+
+
+.scooter-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+}
+
+.scooter-item{ 
+    height: 300px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: calc( 300px);
+    transition: ease 0.5s;
+    object-fit: cover;
+  
+    
+}
+
+.scooter-item p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Electrolize", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+/* ------adventure------- */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.modeller-adventure{
+    background-color: black;
+    display: flex;
+    
+}
+
+.title-adventure{
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 300px;
+    text-align: center;
+    
+}
+.title-adventure h1{
+    padding: 50%;
+    transform: rotate(270deg);
+}
+
+
+.adventure-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+}
+
+.adventure-item{
+    
+    height: 300px;
+    background-color:  #d71d1d;
+    border: 3px solid  #d71d1d;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: calc( 300px);
+    transition: ease 0.5s;
+    object-fit: cover;
+  
+    
+}
+
+.adventure-item p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Electrolize", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+/* -----naked------ */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.modeller-naked{
+    background-color:  #d71d1d;
+    
+    display: flex;
+    
+}
+
+.title-naked{
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 300px;
+    text-align: center;
+    
+}
+.title-naked h1{
+    padding: 50%;
+    transform: rotate(270deg);
+}
+
+
+.naked-container{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+}
+
+.naked-item{
+    height: 300px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: calc( 300px);
+    transition: ease 0.5s;
+    object-fit: cover;
+  
+    
+}
+
+.naked-item p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Electrolize", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+/* ----TOURİNG--- */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.modeller-touring{
+    background-color: black;
+    
+    display: flex;
+    
+}
+
+.title-touring{
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+.title-touring h1{
+    padding: 30%;
+    transform: rotate(270deg);
+}
+
+
+.touring-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+}
+
+.touring-item{
+    height: 300px;
+    background-color:  #d71d1d;
+    border: 3px solid  #d71d1d;
+    border-radius: 10px;
+    margin: 55px;
+    overflow: hidden;
+    position: relative;
+    width: calc( 300px);
+    transition: ease 0.5s;
+    object-fit: cover;
+  
+    
+}
+
+.touring-item p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Electrolize", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+
+/* -----SUPERSPORTS---- */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.modeller-supersport{
+    background-color: #d71d1d;
+    
+    display: flex;
+    
+}
+
+.title-supersport{
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 300px;
+    text-align: center;
+    
+}
+.title-supersport h1{
+    padding: 50%;
+    transform: rotate(270deg);
+}
+
+
+.supersport-container{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      
+}
+
+.supersport-item{
+    height: 300px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 150px;
+    overflow: hidden;
+    position: relative;
+    width: calc( 300px);
+    transition: ease 0.5s;
+    object-fit: cover;
+  
+    
+}
+
+.supersport-item p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Electrolize", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+
+
+/* footer start */
+
+.footer-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    
+} 
+.footerlogo-cont{
+    width: 100%;
+    height: fit-content;
+}
+.footer-logo{
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.iletisim-icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+ 
+}
+.foot-icon{
+    color: white;
+    align-items: center;
+    padding-left: 60px;
+    height: fit-content;
+    font-size: 30px;
+}
+.footer-p{
+    padding-top: 200px;
+    padding-left: 70px;
+    color: white;
+
+}
+
+/* base css end */

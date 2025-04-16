@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.fiyatlistesi-container{
+    width: 100%;
+    height: 100vh;
+}
+/* navbar start */
+.navbar{
+    
+    background-color: #d71d1d;
+    height: 100px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.navbar-wrapper{
+    border-bottom:2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.logo{
+    width: 100px;
+    height: fit-content;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    }
+
+
+.menu-item{
+
+    cursor: pointer;
+}
+
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+color: white;
+font-weight: bold; 
+transition: ease 0,5s;   
+}
+
+.profil-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.profil-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.profil-icon{
+   
+    color: white;
+    font-weight: bold;
+    padding-top: 0,5px;
+}
+.profil-icon:hover{
+    color: white;
+    font-weight: bold; 
+transition: ease 0,5s; 
+}
+
+
+.profile-pic{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* sell css */
+.sell-container{
+    display: flex;
+    justify-content: space-around;
+}
+.segment-container{
+    margin-top: 100px;
+    font-weight: bold;
+    width:50%;
+    height: 300px;
+    text-align: center;
+
+}
+.model-container{
+    margin-top: 100px; 
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+
+}
+.segment-label{
+  margin-top: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+
+.model-label{
+  margin-top: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 25px;
+    
+}
+
+#segmentler{
+    text-align: center;
+    margin-top: 10px;
+    height: 50px;
+    width: 230px;
+    background-color: white;
+    color: #d71d1d;
+    font-size: 20px;
+}
+
+#modeller{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 50px;
+    width: 230px;
+    background-color: white;
+    color: #d71d1d;
+    font-size: 20px;
+}
+
+.satıs-button{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.sec-button{
+
+ border-radius: 20px;
+ background-color: white;
+ color:#d71d1d;
+ border: 3px solid;
+ border-color: white;
+ width: 200px;
+ height: 75px;
+ font-size: 20px;
+ font-family: "Electrolize", sans-serif;
+}
+.sec-button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    border-color: black;
+}
+
+/* sonraki button */
+
+.nextbuttondiv{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#next-button{
+    border-radius: 20px;
+ background-color: white;
+ color:#d71d1d;
+ border: 3px solid;
+ border-color: white;
+ width: 200px;
+ height: 75px;
+ font-size: 20px;
+ font-family: "Electrolize", sans-serif;
+}
+#next-button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    border-color: black;
+}
+/* footer start */
+
+.footer-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    
+} 
+.footerlogo-cont{
+    width: 100%;
+    height: fit-content;
+}
+.footer-logo{
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.iletisim-icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+ 
+}
+.foot-icon{
+    color: white;
+    align-items: center;
+    padding-left: 60px;
+    height: fit-content;
+    font-size: 30px;
+}
+.footer-p{
+    padding-top: 200px;
+    padding-left: 70px;
+    color: white;
+
+}
